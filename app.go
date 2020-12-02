@@ -9,7 +9,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Print("Simple app running...")
-	msg := "Simple app is running!"
+	msg := "Simple app is running by Aquino!"
 	fmt.Fprintf(w, "<h1>%s</h1>", msg)
 }
 
